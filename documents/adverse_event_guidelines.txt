@@ -1,0 +1,42 @@
+
+ADVERSE EVENT REPORTING GUIDELINES Document Version: 2.1 Effective Date: January 2024
+
+DEFINITIONS:
+
+Adverse Event (AE): Any untoward medical occurrence in a patient administered a pharmaceutical product, which does not necessarily have a causal relationship with the treatment.
+
+Serious Adverse Event (SAE): An adverse event that:
+
+- Results in death
+- Is life-threatening
+- Requires inpatient hospitalization or prolongation of existing hospitalization
+- Results in persistent or significant disability/incapacity
+- Is a congenital anomaly/birth defect
+- Is a medically important event
+
+SEVERITY GRADING: Grade 1 (Mild): Symptoms causing no or minimal interference with usual social and functional activities Grade 2 (Moderate): Symptoms causing greater than minimal interference with usual social and functional activities Grade 3 (Severe): Symptoms causing inability to perform usual social and functional activities Grade 4 (Life-threatening): Symptoms causing urgent intervention indicated Grade 5 (Fatal): Death related to adverse event
+
+REPORTING TIMELINES:
+
+- Serious Adverse Events: Report within 24 hours of awareness
+- Non-serious Adverse Events: Report at next scheduled visit
+- Pregnancy: Report within 24 hours of awareness
+
+CAUSALITY ASSESSMENT: Relationship to study drug must be assessed as:
+
+- Not Related: No temporal relationship or alternative cause clearly explains the event
+- Unlikely: Temporal relationship exists but alternative cause more likely
+- Possible: Temporal relationship exists and alternative cause possible but less likely
+- Probable: Temporal relationship exists and no alternative cause identified
+- Definite: Clear temporal relationship and rechallenge positive (if applicable)
+
+DOCUMENTATION REQUIREMENTS: All adverse events must be documented with:
+
+- Event description
+- Start and end dates
+- Severity grade
+- Causality assessment
+- Action taken (dose modification, treatment, etc.)
+- Outcome (resolved, ongoing, fatal, etc.)
+
+FOLLOW-UP: All adverse events must be followed until resolution or stabilization. Serious adverse events require detailed narrative reports.

@@ -1,0 +1,11 @@
+**pycache**/
+*.pyc
+.pytest_cache/
+data/vector_db/
+*.log
+.vscode/
+.DS_Store
+flagged/
+.venv
+.devbox
+Scratch/

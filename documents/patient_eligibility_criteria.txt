@@ -1,0 +1,58 @@
+
+PATIENT ELIGIBILITY CRITERIA Protocol: CT-2024-001 Version: 1.2
+
+INCLUSION CRITERIA:
+
+1. AGE AND CONSENT
+    
+    - Male or female participants aged 18 to 65 years (inclusive)
+    - Able to provide written informed consent
+    - Willing to comply with all study procedures
+2. DIAGNOSIS
+    
+    - Confirmed diagnosis of target condition by medical history and examination
+    - Symptom duration of at least 6 months
+    - Symptom severity score ≥ 15 at screening visit
+3. GENERAL HEALTH
+    
+    - Body Mass Index (BMI) between 18 and 35 kg/m²
+    - Adequate hepatic function: ALT and AST ≤ 2.5 × ULN
+    - Adequate renal function: eGFR ≥ 60 mL/min/1.73m²
+    - Adequate cardiac function: No clinically significant ECG abnormalities
+4. CONTRACEPTION (if applicable)
+    
+    - Women of childbearing potential must use effective contraception
+    - Male participants must use barrier contraception if partner is of childbearing potential
+
+EXCLUSION CRITERIA:
+
+1. MEDICAL CONDITIONS
+    
+    - Pregnant or breastfeeding
+    - History of malignancy within 5 years (except treated basal cell carcinoma)
+    - Active infection requiring systemic treatment
+    - Uncontrolled diabetes (HbA1c > 9%)
+    - Uncontrolled hypertension (BP > 160/100 mmHg)
+    - History of seizure disorder
+2. MEDICATIONS
+    
+    - Use of prohibited medications within 30 days of screening
+    - Current use of immunosuppressive therapy
+    - Use of investigational drug within 30 days or 5 half-lives (whichever is longer)
+3. ALLERGIES AND SENSITIVITIES
+    
+    - Known hypersensitivity to study drug or excipients
+    - History of severe allergic reactions or anaphylaxis
+4. LABORATORY EXCLUSIONS
+    
+    - Hemoglobin < 10 g/dL
+    - Platelet count < 100,000/μL
+    - Positive test for HIV, Hepatitis B, or Hepatitis C
+    - Positive pregnancy test (for women of childbearing potential)
+5. OTHER
+    
+    - Current participation in another interventional clinical trial
+    - Unable or unwilling to comply with study procedures
+    - Any condition that, in the investigator's opinion, would compromise safety or data integrity
+
+SCREENING PROCEDURES: All inclusion and exclusion criteria must be assessed at the screening visit. Participants must meet ALL inclusion criteria and NONE of the exclusion criteria to be eligible.

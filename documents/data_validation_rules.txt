@@ -1,0 +1,116 @@
+
+DATA VALIDATION RULES System: Clinical Trial Data Management Version: 3.0
+
+PATIENT IDENTIFIER VALIDATION:
+
+Rule DV-001: Patient ID Format
+
+- Must match pattern: PAT followed by exactly 6 digits
+- Example: PAT000001, PAT123456
+- Invalid: PAT1, PATIENT000001, 000001
+
+Rule DV-002: Site ID Format
+
+- Must match pattern: SITE followed by exactly 3 digits
+- Example: SITE001, SITE999
+- Invalid: SITE1, S001, SITE1000
+
+DEMOGRAPHIC DATA VALIDATION:
+
+Rule DV-010: Age Validation
+
+- Must be integer between 18 and 85 (inclusive)
+- Must be consistent with date of birth if both provided
+- Flag for review if age > 75
+
+Rule DV-011: Gender Validation
+
+- Must be one of: M (Male), F (Female), O (Other)
+- Cannot be null or empty
+- Case-sensitive
+
+Rule DV-012: Enrollment Date Validation
+
+- Must be valid date in format YYYY-MM-DD
+- Cannot be in the future
+- Must be after study start date
+- Must be after informed consent date
+
+CLINICAL DATA VALIDATION:
+
+Rule DV-020: Vital Signs - Blood Pressure
+
+- Systolic BP: 70-250 mmHg (flag if < 90 or > 180)
+- Diastolic BP: 40-150 mmHg (flag if < 60 or > 110)
+- Systolic must be greater than diastolic
+
+Rule DV-021: Vital Signs - Heart Rate
+
+- Must be 40-200 bpm
+- Flag for review if < 50 or > 120 bpm
+
+Rule DV-022: Vital Signs - Temperature
+
+- Must be 35.0-42.0°C (95.0-107.6°F)
+- Flag for review if < 36.0°C or > 38.0°C
+
+Rule DV-023: Laboratory Values - Hemoglobin
+
+- Must be 5.0-20.0 g/dL
+- Flag if < 10.0 g/dL (anemia)
+- Flag if > 17.0 g/dL (polycythemia)
+
+ADVERSE EVENT VALIDATION:
+
+Rule DV-030: AE Severity
+
+- Must be one of: Mild, Moderate, Severe, Life-threatening, Fatal
+- Cannot be null for reported adverse events
+
+Rule DV-031: AE Dates
+
+- Start date cannot be before enrollment date
+- End date cannot be before start date
+- End date cannot be in the future
+- Fatal events must have end date
+
+Rule DV-032: SAE Reporting
+
+- Serious adverse events must be reported within 24 hours
+- Flag if report date > event date + 1 day
+
+CONSENT VALIDATION:
+
+Rule DV-040: Informed Consent
+
+- Consent date must be before or equal to enrollment date
+- Consent version must match current approved version
+- Consent must be signed (boolean = true)
+- Consent form must be on file
+
+VISIT WINDOW VALIDATION:
+
+Rule DV-050: Visit Windows
+
+- Screening: Day -14 to Day -1
+- Baseline: Day 1
+- Week 4 visit: Day 28 ± 3 days
+- Week 8 visit: Day 56 ± 3 days
+- Week 12 visit: Day 84 ± 5 days
+- Week 24 visit: Day 168 ± 7 days
+
+Flag visits outside acceptable windows for protocol deviation review.
+
+CROSS-FIELD VALIDATION:
+
+Rule DV-060: Pregnancy Status
+
+- If gender = F and age 18-55, pregnancy test required
+- If pregnant = true, must be excluded from study
+- If breastfeeding = true, must be excluded from study
+
+Rule DV-061: Medication Consistency
+
+- If taking prohibited medication, must be excluded
+- Concomitant medications must have start date ≤ enrollment date
+- Medication end date cannot be before start date

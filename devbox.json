@@ -4,7 +4,9 @@
     "python@3.13",
     "python313Packages.pip@25.3",
     "python313Packages.sentence-transformers@5.2",
-    "python313Packages.chromadb@1.4"
+    "python313Packages.chromadb@1.4",
+    "python313Packages.gradio@6.5",
+    "python313Packages.pandas@2.3"
   ],
   "shell": {
     "init_hook": [
